@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+}
+
+.sub-container {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 30px;
+  border-width: 0px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #0b69ff;
+  font-size: 40px;
+  font-family: roboto;
+  text-align: center;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 20px;
+  color: #333333;
+}
+
+.button {
+  color: white;
+  background-color: #0b69ff;
+  border-radius: 3px;
+  padding: 10px;
+}
+.heading2 {
+  color: #0b69ff;
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (max-width: 576px) {
+  .sub-container {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 10px;
+    border-width: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    color: #0b69ff;
+    font-size: 20px;
+    font-family: roboto;
+    text-align: center;
+  }
+
+  .paragraph {
+    text-align: center;
+    font-size: 10px;
+    color: #333333;
+  }
+
+  .button {
+    color: white;
+    background-color: #0b69ff;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  .heading2 {
+    color: #0b69ff;
+    text-align: center;
+    font-size: 20px;
+  }
+}
